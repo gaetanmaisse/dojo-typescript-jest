@@ -1,0 +1,27 @@
+{
+  "name": "typescript-dojo",
+  "version": "1.0.0",
+  "description": "A starting point for kata using TypeScript and Jest",
+  "author": "Gaetan Maisse",
+  "license": "MIT",
+  "scripts": {
+    "build": "tsc",
+    "test": "jest --forceExit --coverage --verbose",
+    "watch-ts": "tsc -w",
+    "watch-test": "jest --watch",
+    "tslint": "tslint -c tslint.json -p tsconfig.json"
+  },
+  "dependencies": {
+    "lodash": "^4.17.4"
+  },
+  "devDependencies": {
+    "@types/chai": "^4.1.2",
+    "@types/jest": "^21.1.8",
+    "@types/lodash": "^4.14.91",
+    "chai": "^4.1.2",
+    "jest": "^21.2.1",
+    "ts-jest": "^21.2.4",
+    "tslint": "^5.8.0",
+    "typescript": "^2.6.2"
+  }
+}
