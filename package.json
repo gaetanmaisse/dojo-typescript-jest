@@ -5,6 +5,7 @@
   "author": "Gaetan Maisse",
   "license": "MIT",
   "scripts": {
+    "commit": "git-cz",
     "build": "tsc",
     "test": "jest --forceExit --coverage --verbose --detectOpenHandles",
     "watch-ts": "tsc -w",
@@ -19,6 +20,7 @@
     "@types/jest": "^23.3.2",
     "@types/lodash": "^4.14.116",
     "chai": "^4.1.2",
+    "commitizen": "^3.0.4",
     "cz-conventional-changelog": "^2.1.0",
     "jest": "^23.6.0",
     "ts-jest": "^23.1.4",
