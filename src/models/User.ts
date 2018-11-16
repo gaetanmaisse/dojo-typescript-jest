@@ -1,10 +1,7 @@
 export class User {
+  constructor(private lastName: string, private firstName: string) {}
 
-    constructor(private lastName: string,
-                private firstName: string) {
-    }
-
-    public getFullName() {
-        return `${this.firstName} ${this.lastName}`;
-    }
+  public getFullName() {
+    return `${this.firstName} ${this.lastName}`;
+  }
 }
