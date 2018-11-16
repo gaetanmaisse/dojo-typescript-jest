@@ -10,7 +10,7 @@
     "test": "jest --forceExit --coverage --verbose --detectOpenHandles",
     "watch-ts": "tsc -w",
     "watch-test": "jest --watch",
-    "tslint": "tslint -c tslint.json -p tsconfig.json"
+    "lint:tslint": "tslint -c tslint.json -p tsconfig.json"
   },
   "dependencies": {
     "lodash": "^4.17.11"
