@@ -19,6 +19,12 @@ git clone https://github.com/gaetanmaisse/dojo-typescript-jest.git
 npm install
 ```
 
+or 
+
+```bash
+yarn install
+```
+
 - Just code and have fun!
 
 ## Available NPM scripts
