@@ -21,7 +21,7 @@
     "@types/lodash": "^4.14.118",
     "chai": "^4.2.0",
     "commitizen": "^3.0.4",
-    "cz-conventional-changelog": "^2.1.0",
+    "cz-emoji": "^1.1.2",
     "jest": "^23.6.0",
     "prettier": "^1.15.2",
     "ts-jest": "^23.10.4",
@@ -31,7 +31,59 @@
   },
   "config": {
     "commitizen": {
-      "path": "./node_modules/cz-conventional-changelog"
+      "path": "./node_modules/cz-emoji"
+    },
+    "cz-emoji": {
+      "types": [
+        {
+          "emoji": "🌟",
+          "code": "feature: 🌟",
+          "description": "A new feature",
+          "name": "feature:"
+        },
+        {
+          "emoji": "🐛",
+          "code": "fix: 🐛",
+          "description": "A bug fix",
+          "name": "fix:"
+        },
+        {
+          "emoji": "🚓",
+          "code": "test: 🚓",
+          "description": "Testing improved with new or fixed tests",
+          "name": "test:"
+        },
+        {
+          "emoji": "🔩",
+          "code": "chore: 🔩",
+          "description": "Doesn't modify src or test files",
+          "name": "chore:"
+        },
+        {
+          "emoji": "✏️",
+          "code": "style: ✏️",
+          "description": "Doesn't affect the meaning of the code (white-space, semi-colons, etc)",
+          "name": "style:"
+        },
+        {
+          "emoji": "📚",
+          "code": "docs: 📚",
+          "description": "Documentation change",
+          "name": "docs:"
+        },
+        {
+          "emoji": "♻️",
+          "code": "refactor: ♻️",
+          "description": "Neither fixes a bug nor adds a feature",
+          "name": "refactor:"
+        },
+        {
+          "emoji": "⏪️",
+          "code": "revert: ️️⏪️",
+          "description": "Reverts a previous commit",
+          "name": "revert:"
+        }
+      ]
     }
   }
 }
