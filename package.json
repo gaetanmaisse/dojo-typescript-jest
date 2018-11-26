@@ -9,7 +9,7 @@
     "build": "tsc",
     "build:watch": "tsc -w",
     "test": "jest --forceExit --coverage --verbose --detectOpenHandles",
-    "watch-test": "jest --watch",
+    "test:watch": "jest --watch",
     "lint:tslint": "tslint -c tslint.json -p tsconfig.json"
   },
   "dependencies": {

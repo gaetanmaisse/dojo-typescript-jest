@@ -36,6 +36,6 @@ Below is a list of all the scripts this project has available:
 | ------------- | -------------------------------------------------------------------------------------- |
 | `build`       | Runs Typescript compiler                                                               |
 | `build:watch` | Runs Typescript compiler in watch mode                                                 |
-| `test`        | Runs tests using Jest test runner with --verbose et --coverage activated               |
-| `watch-test`  | Runs tests in watch mode (run only tests related to changed files based on git status) |
+| `test`        | Runs tests using Jest test runner with --verbose and --coverage activated              |
+| `test:watch`  | Runs tests in watch mode (run only tests related to changed files based on git status) |
 | `lint:tslint` | Runs TSLint on project files                                                           |
