@@ -16,10 +16,8 @@
     "lodash": "^4.17.11"
   },
   "devDependencies": {
-    "@types/chai": "^4.1.7",
     "@types/jest": "^23.3.10",
     "@types/lodash": "^4.14.119",
-    "chai": "^4.2.0",
     "commitizen": "^3.0.5",
     "cz-emoji": "^1.1.2",
     "jest": "^23.6.0",

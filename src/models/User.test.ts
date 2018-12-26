@@ -1,4 +1,3 @@
-import { expect } from 'chai';
 import { User } from './User';
 
 describe('User', () => {
@@ -11,7 +10,7 @@ describe('User', () => {
   describe('getFullName', () => {
     it('should concat firstname and lastname', () => {
       const fullName = user.getFullName();
-      expect(fullName).to.equal('John Doe');
+      expect(fullName).toEqual('John Doe');
     });
   });
 });
