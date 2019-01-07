@@ -16,7 +16,7 @@
     "lodash": "^4.17.11"
   },
   "devDependencies": {
-    "@types/jest": "^23.3.11",
+    "@types/jest": "^23.3.12",
     "@types/lodash": "^4.14.119",
     "commitizen": "^3.0.5",
     "cz-emoji": "^1.1.2",
