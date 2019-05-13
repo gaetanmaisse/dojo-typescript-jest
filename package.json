@@ -10,7 +10,6 @@
     "build:watch": "tsc -w",
     "test": "jest --forceExit --coverage --verbose --detectOpenHandles",
     "test:watch": "jest --watch",
-    "lint:tslint": "tslint -c tslint.json -p tsconfig.json",
     "lint:eslint": "eslint -c .eslintrc.json --ext .ts src/"
   },
   "dependencies": {
@@ -30,8 +29,6 @@
     "jest": "^24.8.0",
     "prettier": "^1.17.0",
     "ts-jest": "^24.0.2",
-    "tslint": "^5.16.0",
-    "tslint-config-prettier": "^1.18.0",
     "typescript": "^3.4.5"
   },
   "config": {
