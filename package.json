@@ -16,7 +16,7 @@
     "lodash": "^4.17.11"
   },
   "devDependencies": {
-    "@types/jest": "^24.0.12",
+    "@types/jest": "^24.0.13",
     "@types/lodash": "^4.14.126",
     "@typescript-eslint/eslint-plugin": "^1.9.0",
     "commitizen": "^3.1.1",
