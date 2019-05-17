@@ -23,7 +23,7 @@
     "cz-emoji": "^1.1.2",
     "eslint": "^5.16.0",
     "eslint-config-google": "^0.13.0",
-    "eslint-config-prettier": "^4.2.0",
+    "eslint-config-prettier": "^4.3.0",
     "eslint-plugin-jest": "^22.5.1",
     "eslint-plugin-prettier": "^3.1.0",
     "jest": "^24.8.0",
