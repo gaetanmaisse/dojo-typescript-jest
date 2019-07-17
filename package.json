@@ -13,7 +13,7 @@
     "lint:eslint": "eslint -c .eslintrc.json --ext .ts src/"
   },
   "dependencies": {
-    "lodash": "^4.17.13"
+    "lodash": "^4.17.14"
   },
   "devDependencies": {
     "@types/jest": "^24.0.15",
