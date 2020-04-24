@@ -8,7 +8,7 @@ describe('User', () => {
   });
 
   describe('getFullName', () => {
-    it('should concat firstname and lastname', () => {
+    it('should concat firstname  and lastname', () => {
       const fullName = user.getFullName();
       expect(fullName).toEqual('John Doe');
     });
