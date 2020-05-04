@@ -19,7 +19,7 @@
     "@types/jest": "^25.2.1",
     "@types/lodash": "^4.14.150",
     "@typescript-eslint/eslint-plugin": "^1.9.0",
-    "commitizen": "^4.0.4",
+    "commitizen": "^4.0.5",
     "cz-emoji": "^1.2.1",
     "eslint": "^5.16.0",
     "eslint-config-google": "^0.14.0",
