@@ -24,7 +24,7 @@
     "cz-emoji": "^1.2.2",
     "eslint": "^7.9.0",
     "eslint-config-google": "^0.14.0",
-    "eslint-config-prettier": "^6.11.0",
+    "eslint-config-prettier": "^6.15.0",
     "eslint-plugin-jest": "^24.0.1",
     "eslint-plugin-prettier": "^3.1.4",
     "jest": "^26.6.3",
