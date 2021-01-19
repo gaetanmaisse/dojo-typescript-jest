@@ -13,6 +13,8 @@ jobs:
 
     - run: yarn up '*'
 
+    - run: yarn dedupe
+
     - name: Create pull request
       uses: peter-evans/create-pull-request@v3.5.2
       with:
