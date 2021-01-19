@@ -19,22 +19,16 @@ git clone https://github.com/gaetanmaisse/dojo-typescript-jest.git
 - Install dependencies
 
 ```bash
-npm install
-```
-
-or
-
-```bash
 yarn install
 ```
 
 - Just code and have fun!
 
-## Available NPM scripts
+## Available scripts
 
 Below is a list of all the scripts this project has available:
 
-| NPM Script    | Description                                                                            |
+| Script    | Description                                                                            |
 | ------------- | -------------------------------------------------------------------------------------- |
 | `build`       | Runs Typescript compiler                                                               |
 | `build:watch` | Runs Typescript compiler in watch mode                                                 |
