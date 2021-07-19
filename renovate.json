@@ -1,5 +1,12 @@
 {
-  "extends": [
-    "config:base"
+  "extends": ["config:base", "schedule:earlyMondays"],
+  "dependencyDashboard": true,
+  "packageRules": [
+    {
+      "matchDepTypes": ["devDependencies"],
+      "matchUpdateTypes": ["patch", "minor"],
+      "groupName": "devDependencies (non-major)",
+      "groupSlug": "devdependencies-non-major"
+    }
   ]
 }
