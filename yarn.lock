@@ -4416,7 +4416,7 @@ fsevents@^2.3.2:
   languageName: node
   linkType: hard
 
-"lodash@npm:4.x, lodash@npm:^4.17.12, lodash@npm:^4.17.19, lodash@npm:^4.17.20, lodash@npm:^4.17.21, lodash@npm:^4.3.0, lodash@npm:^4.7.0":
+"lodash@npm:4.17.21, lodash@npm:4.x, lodash@npm:^4.17.12, lodash@npm:^4.17.19, lodash@npm:^4.17.20, lodash@npm:^4.3.0, lodash@npm:^4.7.0":
   version: 4.17.21
   resolution: "lodash@npm:4.17.21"
   checksum: eb835a2e51d381e561e508ce932ea50a8e5a68f4ebdd771ea240d3048244a8d13658acbd502cd4829768c56f2e16bdd4340b9ea141297d472517b83868e677f7
@@ -5996,7 +5996,7 @@ fsevents@^2.3.2:
     eslint-plugin-jest: 24.4.0
     eslint-plugin-prettier: 3.4.0
     jest: 27.0.6
-    lodash: ^4.17.21
+    lodash: 4.17.21
     prettier: 2.3.2
     ts-jest: 27.0.4
     typescript: 4.3.5
