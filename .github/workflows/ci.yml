@@ -11,7 +11,7 @@ jobs:
         with:
           fetch-depth: 1
       - name: Use Node.js with last LTS version
-        uses: actions/setup-node@v2
+        uses: actions/setup-node@v3
         with:
           node-version: lts/*
       - name: Cache node modules
@@ -37,7 +37,7 @@ jobs:
         with:
           fetch-depth: 1
       - name: Use Node.js with last LTS version
-        uses: actions/setup-node@v2
+        uses: actions/setup-node@v3
         with:
           node-version: lts/*
       - name: Cache node modules
@@ -63,7 +63,7 @@ jobs:
         with:
           fetch-depth: 1
       - name: Use Node.js with last LTS version
-        uses: actions/setup-node@v2
+        uses: actions/setup-node@v3
         with:
           node-version: lts/*
       - name: Cache node modules
