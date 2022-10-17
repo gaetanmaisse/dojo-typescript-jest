@@ -1,7 +1,9 @@
 pull_request_rules:
-  - name: Automatic merge for Renovate pull requests when CI is 🟢
+  - name: Automatic merge for Renovate and Dependabot pull requests when CI is 🟢
     conditions:
-      - author=renovate[bot]
+      - or:
+          - author=renovate[bot]
+          - author=dependabot[bot]
     actions:
       merge:
         method: rebase
