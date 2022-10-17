@@ -1,7 +1,7 @@
 pull_request_rules:
-  - name: Automatic merge on approval
+  - name: Automatic merge for Renovate pull requests when CI is 🟢
     conditions:
-      - "#approved-reviews-by>=1"
+      - author=renovate[bot]
     actions:
       merge:
         method: rebase
