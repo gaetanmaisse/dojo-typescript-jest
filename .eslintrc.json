@@ -1,12 +1,10 @@
 {
 
-  "plugins": ["@typescript-eslint", "prettier", "jest"],
+  "plugins": ["@typescript-eslint", "prettier"],
   "env": {
-    "browser": true,
-    "jest/globals": true
+    "browser": true
   },
   "extends": [
-    "plugin:jest/recommended",
     "eslint:recommended",
     "google",
     "plugin:@typescript-eslint/recommended",
