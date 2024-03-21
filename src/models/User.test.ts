@@ -13,4 +13,11 @@ describe('User', () => {
       expect(fullName).toEqual('John Doe');
     });
   });
+
+  describe('getSlug', () => {
+    it('should create slug based on firstname and lastname', () => {
+      const slug = user.getSlug();
+      expect(slug).toEqual('john-doe');
+    });
+  });
 });
