@@ -7,4 +7,8 @@ export class User {
   public getFullName(): string {
     return `${this.firstName} ${this.lastName}`;
   }
+
+  public getSlug() {
+    return `${this.firstName.toLowerCase()}-${this.lastName.toLowerCase()}`;
+  }
 }
