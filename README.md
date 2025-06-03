@@ -1,6 +1,6 @@
-# Dojo TypeScript-Jest
+# Dojo TypeScript
 
-Dojo playground with TypeScript & Jest.
+Dojo playground with TypeScript.
 
 [![code style: prettier](https://img.shields.io/badge/code_style-prettier-ff69b4.svg?style=flat-square)](https://github.com/prettier/prettier)
 [![Known Vulnerabilities](https://snyk.io/test/github/gaetanmaisse/dojo-typescript-jest/badge.svg?targetFile=package.json)](https://snyk.io/test/github/gaetanmaisse/dojo-typescript-jest?targetFile=package.json)
