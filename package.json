@@ -1,7 +1,7 @@
 {
   "name": "typescript-dojo",
   "version": "1.0.0",
-  "description": "A starting point for kata using TypeScript and Jest",
+  "description": "A starting point for kata using TypeScript",
   "author": "Gaetan Maisse",
   "license": "MIT",
   "scripts": {
